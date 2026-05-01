@@ -37,28 +37,28 @@ def VerHora(Ven):
     return Ven[7]
 
 def ModCod(Ven,cod):
-    Ven[0]=OtroCod
+    Ven[0]=cod
 
 def ModNom(Ven,nom):
-    Ven[1]=OtroNom
+    Ven[1]=nom
 
 def ModAct(Ven,act):
-    Ven[2]=OtroAct
+    Ven[2]=act
 
 def ModOp(Ven,op):
-    Ven[3]=OtroOp
+    Ven[3]=op
 
 def ModPago(Ven,pago):
-    Ven[4]=OtroPago
+    Ven[4]=pago
 
 def ModImp(Ven,imp):
-    Ven[5]=OtroImp
+    Ven[5]=imp
 
 def ModFec(Ven,fec):
-    Ven[6]=OtroFec
+    Ven[6]=fec
 
 def ModHora(Ven,hora):
-    Ven[7]=OtroHora
+    Ven[7]=hora
 
 def asignarVen(v1,v2):
     v2[0] = v1[0]
